@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#hero {
+  background-image: url(/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#logo-white {
+  display: grid;
+  grid-column-start: start;
+  max-width: 100px;
+  height: 200px;
+  margin-left: 50px;
+}
+
+.outline {
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  position: relative;
+  top: 30%;
+  transform: translate(-50%);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+small {
+  font-size: 2em;
+}
+
+#hero-btn {
+  background-color: purple;
+}
